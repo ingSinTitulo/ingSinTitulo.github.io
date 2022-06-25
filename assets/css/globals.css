@@ -1,0 +1,52 @@
+* {
+    text-align: center;
+}
+
+html {
+    height: 100%;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    font-family: 'Dosis', sans-serif;
+}
+
+h1 {
+    font-size: 20px;
+    line-height: 25px;
+    height: 100%;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+a,
+span {
+    color: unset;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    padding: 10px 0;
+}
