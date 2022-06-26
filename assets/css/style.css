@@ -4,6 +4,10 @@
 @import './colors.css';
 @import './menu.css';
 
+:root {
+    --darker-color-mask: rgba(0, 0, 0, 0.5);
+}
+
 .transition {
     display: block;
     visibility: hidden;
@@ -35,7 +39,7 @@
 }
 
 .project-section + .project-section {
-    border-top: 2px dashed rgba(0, 0, 0, 0.5);
+    border-top: 2px dashed var(--darker-color-mask);
 }
 
 .project-name {
@@ -53,12 +57,12 @@
 .project-link {
     margin-bottom: 18px;
     margin-top: 13px;
-    border: 3px dotted rgba(0, 0, 0, 0.5);
+    border: 3px dotted var(--darker-color-mask);
     padding: 5px 15px;
 }
 
 .project-link:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--darker-color-mask);
 }
 
 .project-link:active {
