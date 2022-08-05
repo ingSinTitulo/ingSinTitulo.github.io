@@ -4,6 +4,6 @@ if ('serviceWorker' in navigator) {
 
 document.querySelector('#share').addEventListener('click', () => navigator.share({
     title: 'Alan Zatarain - Web developer',
-    text: 'Take a loot at the portfolio of Alan Zatarain',
+    text: 'Take a look at the portfolio of Alan Zatarain',
     url: 'https://ingSinTitulo.github.io/'
 }));
